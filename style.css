@@ -8,7 +8,8 @@
 header{
 
  display: flex;
- justify-content: space-between;   
+ justify-content: space-between;  
+align-items: center;
     
 }
 
@@ -17,17 +18,31 @@ text-decoration: none;
 color: black; 
 justify-content: flex-end;
 flex-direction:row;
-
- 
+margin: 5px;
 }
 
 .logo {
     text-decoration: none;
     color: black;
-    font-weight:lighter;
-    font-size: 16x;
+    font-weight: 500px;    
     display: flex;
     align-items: center;
-
+    height: 32px;
+    margin-left: 12px;
+   
 }  
+
+.a{
+    font-weight: lighter;
+    opacity: 0.6;
+    height: 100%;
+    position: relative;
+    right: 5%;
+    
+}
+
+main{
+    background-color: gray;
+    font-size: 12px;
+}
 
