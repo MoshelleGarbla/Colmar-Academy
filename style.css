@@ -1,3 +1,33 @@
-body{
-    color:aqua
+*{
+   margin: 0%;
+   padding: 0%;
+   
 }
+
+
+header{
+
+ display: flex;
+ justify-content: space-between;   
+    
+}
+
+.nav-links a {
+text-decoration: none;
+color: black; 
+justify-content: flex-end;
+flex-direction:row;
+
+ 
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-weight:lighter;
+    font-size: 16x;
+    display: flex;
+    align-items: center;
+
+}  
+
