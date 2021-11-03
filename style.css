@@ -4,12 +4,12 @@
    
 }
 
-
 header{
 
  display: flex;
  justify-content: space-between;  
-align-items: center;
+ align-items: center;
+ margin: 10px;
     
 }
 
@@ -17,8 +17,9 @@ align-items: center;
 text-decoration: none;
 color: black; 
 justify-content: flex-end;
-flex-direction:row;
-margin: 5px;
+flex-direction: row;
+margin: 10px;
+
 }
 
 .logo {
@@ -40,9 +41,66 @@ margin: 5px;
     right: 5%;
     
 }
-
 main{
-    background-color: gray;
-    font-size: 12px;
+
+    background-color: #D3D3D3;
+    background-repeat: no-repeat;
+    height: 550px;
+    margin: 10px 0px;
+    padding: 32px 24px;
+    
+  
 }
 
+.container{
+     display: inline-flex;
+     align-items: center;
+     margin: 10px;
+     
+    
+}
+
+
+.container h1{
+
+font-size: 50px;
+color: #555555;
+position: relative;
+left: 150px;
+bottom: 100px;
+align-items: center;
+
+
+}
+
+.container h2{
+    position: relative;
+    top: 30px;
+    bottom: 300px;
+    right: 218px;
+    align-items: center;
+    line-height: 1.5;  
+    display: block;
+    
+    
+}
+
+
+
+.button {
+    height: 39px;
+    width: 25%;
+    background-color: #383838	; 
+    text-decoration: none;
+    color: #fff;
+    position: fixed;
+    left: 870px;
+    top: 460px;
+    text-align: center;
+    padding: 8px 7px;
+
+    
+
+    
+
+}
