@@ -87,68 +87,56 @@ align-items: center;
 
 
 
-.button {
-    height: 39px;
+.favorite-styled{
+    height: 40px;
     width: 25%;
-    background-color: #383838	; 
+    background-color: #383838; 
     text-decoration: none;
     color: #fff;
-    position: fixed;
-    left: 870px;
-    top: 460px;
+    position: relative;
     text-align: center;
+    left: 840px;
+    bottom: 150px;
     padding: 8px 7px;
 
 }
 
-@media screen and (max-width: 1300px) {
-    .container{
-        display: inline-flex;
-        align-items: center;
-        margin: 10px;
- 
-   }
-
-
-   main{
-
-    background-color: #D3D3D3;
-    background-repeat: no-repeat;
-    height: 550px;
-    margin: 10px 0px;
-    padding: 32px 24px;
-    
-  
+.content img{
+    position: relative;
+    top: 50px;
 }
 
-
-   .container h1{
-    background-color: aliceblue;
-    font-size: 30px;
+.content h1{
+    position: relative;
+    top: 50px;
+    font-size: 42px;
+    font-weight: bolder;
+    line-height: 1.5;
+    padding: 32px;
     color: #555555;
-    position: absolute;
-    display: flex;
-    display: inline-block;
-    position: absolute;
-    left: 700px;
-    bottom: 500px;
-   
-    }
+}
+
+.content h2{
+    position: relative;
+    color: #383838;
+    top: 30px;
+    padding: 24px;
+    font-size: 18px;
+    font-weight:lighter;
+    opacity: .8;
+    color: #555555;
+    display: block;
+    width: 50%;
+    line-height: 1.5;
     
-    .container h2{
-        background-color: aqua;
-        position: relative;
-        top: 300px;
-        bottom: 300px;
-        right: 0px;
-        align-items: center;
-  
-        
-        
-        
-        
-    }
     
-      
     
+}
+
+.content h3{
+    position: relative;
+    color: #383838;
+    top: 50px;
+    padding: 24px;
+    font-size: 18px;
 }
