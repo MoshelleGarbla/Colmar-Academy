@@ -56,87 +56,119 @@ main{
      display: inline-flex;
      align-items: center;
      margin: 10px;
-     
-    
+       
+}
+
+.container img{
+
+    position: relative;
+    bottom: 15px;
 }
 
 
 .container h1{
-
 font-size: 50px;
 color: #555555;
 position: relative;
-left: 150px;
-bottom: 100px;
-align-items: center;
-
-
+left: 70px;
+bottom: 150px;
 }
 
+
 .container h2{
-    position: relative;
-    top: 30px;
-    bottom: 300px;
-    right: 218px;
-    align-items: center;
-    line-height: 1.5;  
-    display: block;
-    
-    
+    position: absolute;
+    top: 320px;
+    line-height: 1.5;
+    right: 250px;
+    width: 25%;
+    left: 860px;  
 }
 
 
 
 .favorite-styled{
     height: 40px;
-    width: 25%;
+    width: 26%;
     background-color: #383838; 
     text-decoration: none;
     color: #fff;
     position: relative;
-    text-align: center;
     left: 840px;
-    bottom: 150px;
-    padding: 8px 7px;
-
+    bottom: 215px;
+    padding: 2.0em;
+    line-height: 0%;
 }
 
+
 .content img{
-    position: relative;
-    top: 50px;
+    position: absolute;
+    top: 700px;
+   
+   
 }
 
 .content h1{
     position: relative;
-    top: 50px;
+    top: 400px;
     font-size: 42px;
     font-weight: bolder;
     line-height: 1.5;
     padding: 32px;
     color: #555555;
+    right: 20px;
 }
 
 .content h2{
     position: relative;
-    color: #383838;
-    top: 30px;
+    top: 358px;
     padding: 24px;
     font-size: 18px;
-    font-weight:lighter;
-    opacity: .8;
+    font-weight: lighter;
     color: #555555;
     display: block;
     width: 50%;
     line-height: 1.5;
-    
-    
-    
+    right: 12px;
 }
 
 .content h3{
     position: relative;
     color: #383838;
-    top: 50px;
+    top: 350px;
     padding: 24px;
     font-size: 18px;
+    font-weight: lighter;
+    right: 10px;
+}
+
+.sub-section img{
+    position: absolute;
+    left: 860px;
+    top: 700px;
+   
+}
+.sub-section h1{
+    position: absolute;
+    top: 740px;
+    right: 210px;
+    font-weight: lighter;
+    color: #000;
+
+}
+.sub-section h2{
+    position: absolute;
+    top: 790px;
+    right: 70px;
+    font-weight: lighter;
+    color: #000;
+    
+}
+.sub-section a{
+    position: absolute;
+    top: 840px;
+    right: 340px;
+    font-weight: lighter;
+    color: #000fff;
+    text-decoration: none;
+
 }
