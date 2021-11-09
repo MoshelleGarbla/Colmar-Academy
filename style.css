@@ -345,6 +345,25 @@ section{
 }
 
 .fourth-pic{
-   position: relative;
+    background-color: #fff;
+    width: 300px;
+    position: relative;
+    padding: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    right: 0px;
+    left: 50px;
+    bottom: 780px
+}
 
+.fifth-pic{
+    background-color: #fff;
+    width: 300px;
+    position: relative;
+    padding: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    right: 0px;
+    left: 450px;
+    bottom: 1188px
 }
