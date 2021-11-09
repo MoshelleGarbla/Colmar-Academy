@@ -266,7 +266,7 @@ section{
     background-color: #D3D3D3;
     position: relative;
     bottom: 0px;
-    height: 700px;
+    height: 1090px;
     top: 200px;
     width: 2090px;
     right: 200px;
@@ -282,3 +282,69 @@ section{
     
 }
 
+.card-img-top {
+    width: 130%;
+    height: 15vw;
+    object-fit: cover;
+}
+.card img{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    width: 360px;
+    
+    
+    
+}
+.card{
+    position: relative;
+    top: 130px;
+    left: 300px;
+    line-height: 1.9;
+   
+}
+
+
+.first-pic{
+    background-color: #fff;
+    width: 300px;
+    position: relative;
+    padding: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    right: 0px;
+    left: 50px;
+}
+
+.second-pic{
+    position: relative;
+    bottom: 405px;
+    left: 450px;
+    background-color: #fff;
+    width: 300px;
+    position: relative;
+    padding: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 18px;
+
+}
+.third-pic{
+    position: relative;
+    bottom: 810px;
+    left: 850px;
+    background-color: #fff;
+    width: 300px;
+    position: relative;
+    padding: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 49px;
+
+    
+}
+
+.fourth-pic{
+   position: relative;
+
+}
