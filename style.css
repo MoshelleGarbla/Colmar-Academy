@@ -205,22 +205,25 @@ bottom: 150px;
 
 }
 
-section{
+sectioon{
     background-color: #D3D3D3;
      height: 200px;
-     width: 590px;
+     width: 190px;
      position: relative;
-     top: 100px;
-     left: 825px;
+     top: 5px;
+     left: 120px;
 }
 
 .sub-sectionb{
     position: relative;
     background-repeat: no-repeat;
-    height: 165px;
+    height: 135px;
     margin: 10px 0px;
     padding: 32px 24px;
-    top: 20px
+    top: 100px;
+    background-color: #D3D3D3;
+    width: 550px;
+    left: 700px;
     
 
 }
@@ -229,7 +232,7 @@ section{
 .sub-sectionb img{
    position: absolute;
    left: 15px;
-   top: 0px;
+   top: 20px;
   
 }
 
@@ -247,7 +250,7 @@ section{
 
 .sub-sectionb h2{
     position: absolute;
-    right: 92px;
+    right: 100px;
     top: 70px;
     font-weight: lighter;
 
@@ -366,4 +369,85 @@ section{
     right: 0px;
     left: 450px;
     bottom: 1188px
+}
+
+.sixth-pic{
+    background-color: #fff;
+    width: 300px;
+    position: relative;
+    padding: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    right: 0px;
+    left: 850px;
+    bottom: 1595px
+}
+
+.display-1{
+position: relative;
+left: 610px;
+top: 290px;
+
+
+}
+
+video {
+    position: absolute;
+    left: 0%;
+    top: 369%;
+    margin: 32px;
+    width: 53%;
+    
+    
+}
+
+
+section{
+    background-color: #D3D3D3;
+    position: relative;
+     top: 335px;
+     width: 600px;
+     left: 800px;
+     height: 200px
+    
+
+}
+
+
+
+.position-d{
+    position: relative;
+    background-repeat: no-repeat;
+    height: 165px;
+    margin: 10px 0px;
+    padding: 32px 24px;
+    left: 150px;
+    bottom: 160px;
+    font-weight: 100;
+    line-height: 1.5; 
+    
+}
+
+.position-d img{
+    position: relative;
+    right: 160px;
+    top: 145px;
+
+    
+}
+
+.text h1{
+    position: relative;
+    top: 630px;
+    left: 5px;
+    
+}
+
+.text h2{
+    position: relative;
+    top: 650px;
+    display: block;
+    width: 50%;
+    line-height: 1.5;
+    font-weight: lighter;
 }
