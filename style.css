@@ -1,6 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+  
+  }
+
+
+  body{
+      overflow-x: hidden;
+  }
+
+
 *{
-   margin: 0%;
-   padding: 0%;
+   margin: 0;
+   padding: 0;
    
 }
 
@@ -19,6 +35,8 @@ color: black;
 justify-content: flex-end;
 flex-direction: row;
 margin: 10px;
+display: inline;
+padding-right: 16px;
 
 }
 
@@ -41,16 +59,14 @@ margin: 10px;
     right: 5%;
     
 }
-main{
+.banner-content{
 
     background-color: #D3D3D3;
     background-repeat: no-repeat;
     height: 552px;
-    margin: 10px 0px;
     padding: 32px 24px;
-    
-    
-  
+   
+
 }
 
 .container{
@@ -64,25 +80,28 @@ main{
 
     position: relative;
     bottom: 15px;
+    max-width: 2500px;
+    overflow: hidden;
 }
 
 
 .container h1{
 font-size: 50px;
 color: #555555;
-position: relative;
-left: 71px;
-bottom: 150px;
+position: absolute;
+left: 860px;
+bottom: 410px;
+
 }
 
 
 .container h2{
-    position: absolute;
-    top: 320px;
+    position: relative;
+    top: 10px;
     line-height: 1.5;
     right: 250px;
     width: 25%;
-    left: 861px;  
+    left: 81px;  
 }
 
 
@@ -394,7 +413,7 @@ top: 290px;
 video {
     position: absolute;
     left: 0%;
-    top: 368%;
+    top: 365%;
     margin: 32px;
     width: 53%;
    
@@ -448,7 +467,7 @@ section-1{
 .text h1{
     position: relative;
     top: 590px;
-    left: 5px;
+    left: 35px;
 
 }
 
@@ -460,11 +479,17 @@ section-1{
     line-height: 1.5;
     font-weight: lighter;
     font-size: 20px;
-
+    left: 40px;
 }
 .footer-1{
     position: relative;
-    top: 440px;
+    top: 430px;
+    bottom: 100%;
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: hidden;
+    
+    
 }
 
 .footer-1 p{
@@ -483,11 +508,87 @@ hr{
     margin-left: -50%;
   }
   
-  ​
 
- 
+
+ @media screen and (max-width: 768px){
+
+    .banner-content{
+
+        background-color: #D3D3D3;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;       
+    
+    }
+    
+    .container{
+         
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+           
+    }
+    
+    .container img{
+    
+       max-width: 100%;
+    }
+    
+    
+    .container h1{
+    font-size: 50px;
+    color: #555555;
+    position: absolute;
+    left: 860px;
+    bottom: 410px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
 
     
+    }
+    
+    
+    .container h2{
+        position: relative;
+        top: 10px;
+        line-height: 1.5;
+        right: 250px;
+        width: 25%;
+        left: 81px;  
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    .favorite-styled{
+        height: 40px;
+        width: 26%;
+        background-color: #383838; 
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        left: 840px;
+        bottom: 215px;
+        padding: 2.0em;
+        line-height: 0%;
+    }
+
+
+    
+ }
+
+
+
+
+
+
+
+
+
+
 
 
 
